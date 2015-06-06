@@ -23,7 +23,7 @@ build() {
 }
 
 package() {
-  install -Dm644 "$pkgname/target/$pkgname-$pkgver.jar" "$pkgdir/usr/share/$pkgname/$pkgname.jar"
+  install -Dm644 "${srcdir}/${pkgname}-${pkgver}/target/$pkgname-$pkgver.jar" "$pkgdir/usr/share/$pkgname/$pkgname.jar"
 }
 
 # vim:set ts=2 sw=2 et:
