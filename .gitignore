@@ -1,0 +1,4 @@
+*.war
+*.jar
+*.log
+*.pkg.tar.xz
