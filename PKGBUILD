@@ -12,9 +12,7 @@ makedepends=('maven')
 source=(
   "${pkgname}-${pkgver}.tar.gz"::"https://codeload.github.com/mesos/chronos/tar.gz/${pkgver}"
 )
-sha512sums=(
-  "SKIP"
-)
+sha512sums=("7500e58479e461d01f1c303729c34a6180cfaa130c4f15d6f02f2e612b4816900ec3b63b5067883e829bce5afb89e8b7ff2cec5898d8512139954b3bb98858b5")
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
