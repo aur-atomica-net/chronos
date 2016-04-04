@@ -12,7 +12,7 @@ makedepends=('maven' 'nodejs')
 source=("${pkgname}-${pkgver}.tar.gz"::"https://codeload.github.com/mesos/chronos/tar.gz/${pkgver}"
   'chronos.service')
 sha512sums=('ece02d0c38b721ceb799e0989b8dc9207909fbfa1929ba065190addd27ad6740cba721d882305b32d8a62e91306a7bd4d235a209a410caad8a29bc08413b896c'
-            'c47da72ec5a010591226f0de4cb569a1e26188284bbf153bb883060eb9db7acb7b90d21e87d49ff459adafa0ea2a17c0038ab8ff22db3e37fd6d877b9b8d19da')
+            'bb84d73b337090323e081507412748ca5b29281f57ee429a5c7acd43ccf464621fe5c6821a930434b961904c5e52cabaf568f5cf13a9a261ff8a71d59dec1570')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
